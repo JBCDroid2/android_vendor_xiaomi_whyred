@@ -17,3 +17,6 @@
 ifeq ($(WITH_TWRP),true)
 TARGET_RECOVERY_DEVICE_DIRS += vendor/xiaomi/whyred/proprietary
 endif
+
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/xiaomi/whyred
